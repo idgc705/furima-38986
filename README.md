@@ -45,7 +45,7 @@
 ### Association
 * belongs_to :user
 * belongs_to :item
-* has_one :deliver_addresses
+* has_one :deliver_address
 
 ## deliver_addresses table
 
