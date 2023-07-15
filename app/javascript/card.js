@@ -7,9 +7,9 @@ const pay = () => {
   const cvcElement = elements.create('cardCvc');
 
 
-  numberElement.mount('#number-form');
-  expiryElement.mount('#expiry-form');
-  cvcElement.mount('#cvc-form');
+  numberElement.mount('#card-number');
+  expiryElement.mount('#card-exp');
+  cvcElement.mount('#card-cvc');
 
 
   const submit = document.getElementById("button");
